@@ -1,0 +1,14 @@
+MuseIoT.initializeWifi()
+MuseIoT.setWifi("ICT@605", "IloveICT")
+basic.pause(5000)
+basic.forever(function () {
+	
+})
+basic.forever(function () {
+    MuseIoT.sendThingspeak(
+    "25NW6EHTI9QL6CTT",
+    0,
+    0,
+    0
+    )
+})
